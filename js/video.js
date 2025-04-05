@@ -13,7 +13,6 @@ window.addEventListener("load", function() {
 
 // For the volume
     let volumeDisplay = document.getElementById("volume");
-    volumeDisplay.innerHTML = (video.volume * 100) + "%";
 
 // Play button
     document.getElementById("play").addEventListener("click", function() {
